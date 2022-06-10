@@ -44,9 +44,9 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://www.greenfoot.org/download/files/Greenfoot-generic-370.jar",
-          "dest-filename": "Greenfoot-generic-370.zip",
-          "sha256": "7832894ecdd093c5b809ddb0fa952334050d568c4e3f370da7b9d0924eb8f708"
+          "url": "https://www.greenfoot.org/download/files/Greenfoot-generic-371.jar",
+          "dest-filename": "Greenfoot-generic-371.zip",
+          "sha256": "e3906300692d8e60807c2a48a7f381ba7c29cbf85a7ad2aa08087c07a63c94cb"
         }
       ]
     },
