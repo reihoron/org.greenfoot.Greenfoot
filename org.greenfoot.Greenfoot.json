@@ -27,8 +27,15 @@
       "sources": [
         {
           "type": "archive",
+          "only-arches": ["x86_64"],
           "url": "https://download2.gluonhq.com/openjfx/17/openjfx-17_linux-x64_bin-sdk.zip",
           "sha256": "9ad44e3d4638393848223b2d885d340009ebd21c6e30f665be96230a9040595b"
+        },
+        {
+          "type": "archive",
+          "only-arches": ["aarch64"],
+          "url": "https://download2.gluonhq.com/openjfx/17/openjfx-17_linux-aarch64_bin-sdk.zip",
+          "sha256": "e0cdd4f4d9219b38c16e239d119553b6b5b69c0aae9551255e19c1022d6a3e29"
         }
       ]
     },
