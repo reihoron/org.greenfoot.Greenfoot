@@ -27,8 +27,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download2.gluonhq.com/openjfx/11/openjfx-11_linux-x64_bin-sdk.zip",
-          "sha256": "737ff0a20cf4d11dce93c2bdba342274e5b363e4c0e8d1548d3ba5d539a717d9"
+          "url": "https://download2.gluonhq.com/openjfx/17/openjfx-17_linux-x64_bin-sdk.zip",
+          "sha256": "9ad44e3d4638393848223b2d885d340009ebd21c6e30f665be96230a9040595b"
         }
       ]
     },
