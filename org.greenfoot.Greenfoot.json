@@ -3,7 +3,7 @@
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "23.08",
   "sdk": "org.freedesktop.Sdk",
-  "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk17"],
+  "sdk-extensions": ["org.freedesktop.Sdk.Extension.openjdk21"],
   "command": "org.greenfoot.Greenfoot",
   "finish-args": [
     "--env=PATH=/app/jre/bin:/usr/bin:/app/bin",
@@ -18,7 +18,7 @@
     {
       "name": "openjdk",
       "buildsystem": "simple",
-      "build-commands": ["/usr/lib/sdk/openjdk17/install.sh"]
+      "build-commands": ["/usr/lib/sdk/openjdk21/install.sh"]
     },
     {
       "name": "javafx",
@@ -28,14 +28,14 @@
         {
           "type": "archive",
           "only-arches": ["x86_64"],
-          "url": "https://download2.gluonhq.com/openjfx/17/openjfx-17_linux-x64_bin-sdk.zip",
-          "sha256": "9ad44e3d4638393848223b2d885d340009ebd21c6e30f665be96230a9040595b"
+          "url": "https://download2.gluonhq.com/openjfx/21/openjfx-21_linux-x64_bin-sdk.zip",
+          "sha256": "7d2fc17019540e04c1a0af7a333a8c7e0330d3a7f4579311d65e76320ea9a8c9"
         },
         {
           "type": "archive",
           "only-arches": ["aarch64"],
-          "url": "https://download2.gluonhq.com/openjfx/17/openjfx-17_linux-aarch64_bin-sdk.zip",
-          "sha256": "e0cdd4f4d9219b38c16e239d119553b6b5b69c0aae9551255e19c1022d6a3e29"
+          "url": "https://download2.gluonhq.com/openjfx/21/openjfx-21_linux-aarch64_bin-sdk.zip",
+          "sha256": "d8d290064a0d63984fb75f031162450a53a4e19764a2fb1ac558b50ab396509c"
         }
       ]
     },
@@ -51,9 +51,9 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://www.greenfoot.org/download/files/Greenfoot-generic-382.jar",
-          "dest-filename": "Greenfoot-generic-382.zip",
-          "sha256": "3796b015a1fe420bf76315478415dda1b4d3e0ae7eb7a4e32bc8f6dcb7de6633"
+          "url": "https://www.greenfoot.org/download/files/Greenfoot-generic-390.jar",
+          "dest-filename": "Greenfoot-generic-390.zip",
+          "sha256": "d355c03a3284631aac9f10bd37be9a0341240206ae8aa87d7ea36cdffd6d12e6"
         }
       ]
     },
